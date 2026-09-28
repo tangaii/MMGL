@@ -1,0 +1,222 @@
+{"align_strategy": "global", "class_counts_internal": [403, 468], "config": "C2_global_hybrid_medium", "data_shape": [871, 320], "device": "cuda", "modal_dims": [48, 6, 10, 256], "modal_names": ["PHENO", "ANAT", "FUNC", "Correlation"], "seed": 1}
+fold=01 epoch=0001 val_acc=0.4557 val_ba=0.4624 cls=0.88403 align=0.50488 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0011 val_acc=0.4684 val_ba=0.4453 cls=0.73073 align=0.52681 orth=0.00000 balance=0.00000
+fold=01 epoch=0013 val_acc=0.4810 val_ba=0.4572 cls=0.71695 align=0.53014 orth=0.00000 balance=0.00000
+fold=01 epoch=0017 val_acc=0.4937 val_ba=0.4675 cls=0.70532 align=0.53163 orth=0.00000 balance=0.00000
+fold=01 epoch=0018 val_acc=0.5063 val_ba=0.4794 cls=0.70162 align=0.53084 orth=0.00000 balance=0.00000
+fold=01 epoch=0025 current_val_acc=0.4684 wait=7
+fold=01 epoch=0029 val_acc=0.5190 val_ba=0.4881 cls=0.69431 align=0.53905 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0030 val_acc=0.5316 val_ba=0.5000 cls=0.69570 align=0.53933 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0031 val_acc=0.5443 val_ba=0.5199 cls=0.69241 align=0.54269 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0033 val_acc=0.6203 val_ba=0.6396 cls=0.68752 align=0.54513 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0035 val_acc=0.7089 val_ba=0.7246 cls=0.67832 align=0.55444 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0037 val_acc=0.7342 val_ba=0.7162 cls=0.67167 align=0.55027 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0045 val_acc=0.7722 val_ba=0.7712 cls=0.53036 align=0.55502 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0050 current_val_acc=0.7722 wait=5
+fold=01 epoch=0051 val_acc=0.7848 val_ba=0.7783 cls=0.49272 align=0.56392 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0054 val_acc=0.7975 val_ba=0.7918 cls=0.45037 align=0.55797 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0063 val_acc=0.8228 val_ba=0.8189 cls=0.35901 align=0.56643 orth=-0.00000 balance=-0.00000
+fold=01 epoch=0067 val_acc=0.8608 val_ba=0.8626 cls=0.29826 align=0.57645 orth=0.00000 balance=0.00000
+fold=01 epoch=0075 current_val_acc=0.7468 wait=8
+fold=01 epoch=0083 val_acc=0.8734 val_ba=0.8729 cls=0.23223 align=0.58968 orth=0.00000 balance=0.00000
+fold=01 epoch=0088 val_acc=0.8861 val_ba=0.8864 cls=0.18780 align=0.56625 orth=0.00000 balance=0.00000
+fold=01 epoch=0100 current_val_acc=0.8354 wait=12
+fold=01 epoch=0125 current_val_acc=0.8481 wait=37
+fold=01 done epoch=88 ACC=0.8750 BA=0.8736 ASD-AUC=0.9590 runtime=16.4s
+fold=02 epoch=0001 val_acc=0.5190 val_ba=0.5152 cls=0.90668 align=0.48903 orth=0.00000 balance=0.00000
+fold=02 epoch=0002 val_acc=0.5443 val_ba=0.5565 cls=0.88236 align=0.49265 orth=-0.00000 balance=-0.00000
+fold=02 epoch=0003 val_acc=0.5823 val_ba=0.6005 cls=0.83297 align=0.50237 orth=-0.00000 balance=-0.00000
+fold=02 epoch=0004 val_acc=0.6076 val_ba=0.6260 cls=0.80558 align=0.50093 orth=-0.00000 balance=-0.00000
+fold=02 epoch=0025 current_val_acc=0.5316 wait=21
+fold=02 epoch=0035 val_acc=0.6709 val_ba=0.6796 cls=0.67570 align=0.55739 orth=0.00000 balance=0.00000
+fold=02 epoch=0036 val_acc=0.6835 val_ba=0.6980 cls=0.66765 align=0.55538 orth=0.00000 balance=0.00000
+fold=02 epoch=0039 val_acc=0.7468 val_ba=0.7516 cls=0.60291 align=0.56206 orth=0.00000 balance=0.00000
+fold=02 epoch=0050 current_val_acc=0.4557 wait=11
+fold=02 epoch=0064 val_acc=0.8101 val_ba=0.8120 cls=0.46770 align=0.61067 orth=0.00000 balance=0.00000
+fold=02 epoch=0075 current_val_acc=0.6709 wait=11
+fold=02 epoch=0076 val_acc=0.8228 val_ba=0.8282 cls=0.33232 align=0.60656 orth=0.00000 balance=0.00000
+fold=02 epoch=0088 val_acc=0.8354 val_ba=0.8398 cls=0.21580 align=0.58332 orth=0.00000 balance=0.00000
+fold=02 epoch=0099 val_acc=0.8481 val_ba=0.8492 cls=0.17515 align=0.54155 orth=-0.00000 balance=-0.00000
+fold=02 epoch=0100 current_val_acc=0.7848 wait=1
+fold=02 epoch=0125 current_val_acc=0.7975 wait=26
+fold=02 done epoch=99 ACC=0.9310 BA=0.9308 ASD-AUC=0.9597 runtime=13.6s
+fold=03 epoch=0001 val_acc=0.4937 val_ba=0.4693 cls=1.00973 align=0.51597 orth=-0.00000 balance=-0.00000
+fold=03 epoch=0004 val_acc=0.5063 val_ba=0.4990 cls=0.74851 align=0.52085 orth=-0.00000 balance=-0.00000
+fold=03 epoch=0025 current_val_acc=0.4810 wait=21
+fold=03 epoch=0032 val_acc=0.5949 val_ba=0.6189 cls=0.68937 align=0.55737 orth=-0.00000 balance=-0.00000
+fold=03 epoch=0033 val_acc=0.7089 val_ba=0.6873 cls=0.68601 align=0.55946 orth=-0.00000 balance=-0.00000
+fold=03 epoch=0038 val_acc=0.7215 val_ba=0.7374 cls=0.66003 align=0.55458 orth=-0.00000 balance=-0.00000
+fold=03 epoch=0039 val_acc=0.7595 val_ba=0.7361 cls=0.66623 align=0.55528 orth=-0.00000 balance=-0.00000
+fold=03 epoch=0048 val_acc=0.8228 val_ba=0.8056 cls=0.61489 align=0.56736 orth=0.00000 balance=0.00000
+fold=03 epoch=0049 val_acc=0.8608 val_ba=0.8540 cls=0.58075 align=0.56719 orth=0.00000 balance=0.00000
+fold=03 epoch=0050 current_val_acc=0.5823 wait=1
+fold=03 epoch=0059 val_acc=0.8734 val_ba=0.8611 cls=0.50611 align=0.57190 orth=0.00000 balance=0.00000
+fold=03 epoch=0061 val_acc=0.9114 val_ba=0.9096 cls=0.47402 align=0.56082 orth=0.00000 balance=0.00000
+fold=03 epoch=0074 val_acc=0.9241 val_ba=0.9167 cls=0.41901 align=0.58900 orth=0.00000 balance=0.00000
+fold=03 epoch=0075 current_val_acc=0.7848 wait=1
+fold=03 epoch=0100 current_val_acc=0.8861 wait=26
+fold=03 done epoch=74 ACC=0.7471 BA=0.7370 ASD-AUC=0.8309 runtime=11.3s
+fold=04 epoch=0001 val_acc=0.4430 val_ba=0.4585 cls=0.83027 align=0.49564 orth=0.00000 balance=0.00000
+fold=04 epoch=0003 val_acc=0.4937 val_ba=0.4981 cls=0.75435 align=0.50365 orth=-0.00000 balance=-0.00000
+fold=04 epoch=0004 val_acc=0.5316 val_ba=0.5354 cls=0.73640 align=0.50892 orth=-0.00000 balance=-0.00000
+fold=04 epoch=0005 val_acc=0.5823 val_ba=0.5862 cls=0.72215 align=0.51621 orth=-0.00000 balance=-0.00000
+fold=04 epoch=0025 current_val_acc=0.4684 wait=20
+fold=04 epoch=0035 val_acc=0.6456 val_ba=0.6634 cls=0.67850 align=0.54499 orth=0.00000 balance=0.00000
+fold=04 epoch=0036 val_acc=0.6582 val_ba=0.6400 cls=0.67929 align=0.54729 orth=0.00000 balance=0.00000
+fold=04 epoch=0038 val_acc=0.6835 val_ba=0.6622 cls=0.67912 align=0.55534 orth=0.00000 balance=0.00000
+fold=04 epoch=0039 val_acc=0.7342 val_ba=0.7420 cls=0.66191 align=0.56691 orth=0.00000 balance=0.00000
+fold=04 epoch=0046 val_acc=0.7848 val_ba=0.7783 cls=0.62166 align=0.58992 orth=0.00000 balance=0.00000
+fold=04 epoch=0050 current_val_acc=0.7342 wait=4
+fold=04 epoch=0058 val_acc=0.7975 val_ba=0.7934 cls=0.57902 align=0.62010 orth=0.00000 balance=0.00000
+fold=04 epoch=0060 val_acc=0.8101 val_ba=0.8134 cls=0.50112 align=0.60825 orth=0.00000 balance=0.00000
+fold=04 epoch=0068 val_acc=0.8481 val_ba=0.8443 cls=0.51895 align=0.59117 orth=0.00000 balance=0.00000
+fold=04 epoch=0075 current_val_acc=0.8354 wait=7
+fold=04 epoch=0077 val_acc=0.8608 val_ba=0.8578 cls=0.45397 align=0.58138 orth=0.00000 balance=0.00000
+fold=04 epoch=0088 val_acc=0.8734 val_ba=0.8697 cls=0.24733 align=0.56847 orth=-0.00000 balance=-0.00000
+fold=04 epoch=0099 val_acc=0.8861 val_ba=0.8816 cls=0.17459 align=0.54213 orth=-0.00000 balance=-0.00000
+fold=04 epoch=0100 current_val_acc=0.8228 wait=1
+fold=04 epoch=0125 current_val_acc=0.8354 wait=26
+fold=04 epoch=0127 val_acc=0.9114 val_ba=0.9086 cls=0.11998 align=0.52243 orth=0.00000 balance=0.00000
+fold=04 epoch=0150 current_val_acc=0.8608 wait=23
+fold=04 epoch=0175 current_val_acc=0.8354 wait=48
+fold=04 done epoch=127 ACC=0.8391 BA=0.8343 ASD-AUC=0.8936 runtime=15.5s
+fold=05 epoch=0001 val_acc=0.4684 val_ba=0.4727 cls=0.96005 align=0.48963 orth=-0.00000 balance=-0.00000
+fold=05 epoch=0002 val_acc=0.4937 val_ba=0.4932 cls=0.90592 align=0.48958 orth=0.00000 balance=0.00000
+fold=05 epoch=0004 val_acc=0.5443 val_ba=0.5441 cls=0.83647 align=0.49432 orth=-0.00000 balance=-0.00000
+fold=05 epoch=0006 val_acc=0.5570 val_ba=0.5592 cls=0.76118 align=0.49564 orth=-0.00000 balance=-0.00000
+fold=05 epoch=0007 val_acc=0.6076 val_ba=0.6181 cls=0.77483 align=0.50017 orth=-0.00000 balance=-0.00000
+fold=05 epoch=0025 current_val_acc=0.5063 wait=18
+fold=05 epoch=0035 val_acc=0.6456 val_ba=0.6441 cls=0.67234 align=0.52528 orth=0.00000 balance=0.00000
+fold=05 epoch=0041 val_acc=0.6835 val_ba=0.6638 cls=0.66443 align=0.57701 orth=0.00000 balance=0.00000
+fold=05 epoch=0044 val_acc=0.7468 val_ba=0.7394 cls=0.59189 align=0.54515 orth=0.00000 balance=0.00000
+fold=05 epoch=0050 current_val_acc=0.6962 wait=6
+fold=05 epoch=0058 val_acc=0.7722 val_ba=0.7696 cls=0.42303 align=0.56646 orth=0.00000 balance=0.00000
+fold=05 epoch=0065 val_acc=0.7975 val_ba=0.8047 cls=0.44382 align=0.61213 orth=0.00000 balance=0.00000
+fold=05 epoch=0070 val_acc=0.8228 val_ba=0.8189 cls=0.38388 align=0.57708 orth=-0.00000 balance=-0.00000
+fold=05 epoch=0075 current_val_acc=0.8228 wait=5
+fold=05 epoch=0083 val_acc=0.8354 val_ba=0.8388 cls=0.27871 align=0.56694 orth=0.00000 balance=0.00000
+fold=05 epoch=0085 val_acc=0.8481 val_ba=0.8523 cls=0.27711 align=0.56669 orth=0.00000 balance=0.00000
+fold=05 epoch=0096 val_acc=0.8608 val_ba=0.8594 cls=0.18775 align=0.53692 orth=0.00000 balance=0.00000
+fold=05 epoch=0100 current_val_acc=0.8481 wait=4
+fold=05 epoch=0109 val_acc=0.8734 val_ba=0.8681 cls=0.17401 align=0.52356 orth=0.00000 balance=0.00000
+fold=05 epoch=0124 val_acc=0.8861 val_ba=0.8816 cls=0.25580 align=0.57023 orth=-0.00000 balance=-0.00000
+fold=05 epoch=0125 current_val_acc=0.8228 wait=1
+fold=05 epoch=0150 current_val_acc=0.4684 wait=26
+fold=05 done epoch=124 ACC=0.8851 BA=0.8806 ASD-AUC=0.9420 runtime=15.3s
+fold=06 epoch=0001 val_acc=0.3797 val_ba=0.3861 cls=0.96368 align=0.51488 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0002 val_acc=0.4051 val_ba=0.4163 cls=1.02960 align=0.52456 orth=0.00000 balance=0.00000
+fold=06 epoch=0010 val_acc=0.4304 val_ba=0.4048 cls=0.71771 align=0.55585 orth=0.00000 balance=0.00000
+fold=06 epoch=0011 val_acc=0.5063 val_ba=0.4762 cls=0.72019 align=0.55961 orth=0.00000 balance=0.00000
+fold=06 epoch=0012 val_acc=0.5316 val_ba=0.5000 cls=0.73222 align=0.56398 orth=0.00000 balance=0.00000
+fold=06 epoch=0025 current_val_acc=0.4557 wait=13
+fold=06 epoch=0031 val_acc=0.5443 val_ba=0.5328 cls=0.67797 align=0.56042 orth=0.00000 balance=0.00000
+fold=06 epoch=0034 val_acc=0.6076 val_ba=0.5907 cls=0.65144 align=0.56555 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0035 val_acc=0.6203 val_ba=0.6252 cls=0.63458 align=0.56806 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0037 val_acc=0.7089 val_ba=0.6972 cls=0.61905 align=0.56748 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0042 val_acc=0.7342 val_ba=0.7275 cls=0.55301 align=0.57798 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0050 val_acc=0.7848 val_ba=0.7864 cls=0.45634 align=0.57105 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0050 current_val_acc=0.7848 wait=0
+fold=06 epoch=0057 val_acc=0.7975 val_ba=0.8031 cls=0.40307 align=0.57360 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0060 val_acc=0.8101 val_ba=0.8150 cls=0.32548 align=0.58190 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0073 val_acc=0.8228 val_ba=0.8301 cls=0.28148 align=0.58214 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0075 current_val_acc=0.7848 wait=2
+fold=06 epoch=0091 val_acc=0.8354 val_ba=0.8308 cls=0.17023 align=0.56013 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0092 val_acc=0.8608 val_ba=0.8546 cls=0.18315 align=0.55282 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0100 current_val_acc=0.8101 wait=8
+fold=06 epoch=0125 current_val_acc=0.8101 wait=33
+fold=06 epoch=0134 val_acc=0.8734 val_ba=0.8697 cls=0.10008 align=0.51499 orth=-0.00000 balance=-0.00000
+fold=06 epoch=0150 current_val_acc=0.7975 wait=16
+fold=06 epoch=0175 current_val_acc=0.7975 wait=41
+fold=06 done epoch=134 ACC=0.8736 BA=0.8662 ASD-AUC=0.8771 runtime=16.4s
+fold=07 epoch=0001 val_acc=0.5443 val_ba=0.5232 cls=1.00650 align=0.50171 orth=0.00000 balance=0.00000
+fold=07 epoch=0002 val_acc=0.5696 val_ba=0.5518 cls=0.96844 align=0.50934 orth=0.00000 balance=0.00000
+fold=07 epoch=0025 current_val_acc=0.5316 wait=23
+fold=07 epoch=0044 val_acc=0.6962 val_ba=0.6902 cls=0.65796 align=0.55901 orth=-0.00000 balance=-0.00000
+fold=07 epoch=0047 val_acc=0.7089 val_ba=0.7149 cls=0.63826 align=0.55872 orth=-0.00000 balance=-0.00000
+fold=07 epoch=0050 val_acc=0.7595 val_ba=0.7561 cls=0.56164 align=0.57305 orth=-0.00000 balance=-0.00000
+fold=07 epoch=0050 current_val_acc=0.7595 wait=0
+fold=07 epoch=0054 val_acc=0.7722 val_ba=0.7728 cls=0.51829 align=0.57005 orth=-0.00000 balance=-0.00000
+fold=07 epoch=0057 val_acc=0.7975 val_ba=0.7967 cls=0.51563 align=0.58499 orth=-0.00000 balance=-0.00000
+fold=07 epoch=0059 val_acc=0.8101 val_ba=0.8102 cls=0.42067 align=0.57880 orth=-0.00000 balance=-0.00000
+fold=07 epoch=0074 val_acc=0.8228 val_ba=0.8172 cls=0.30888 align=0.59662 orth=0.00000 balance=0.00000
+fold=07 epoch=0075 val_acc=0.8481 val_ba=0.8443 cls=0.29421 align=0.57900 orth=0.00000 balance=0.00000
+fold=07 epoch=0075 current_val_acc=0.8481 wait=0
+fold=07 epoch=0081 val_acc=0.8608 val_ba=0.8578 cls=0.19893 align=0.56750 orth=0.00000 balance=0.00000
+fold=07 epoch=0100 current_val_acc=0.8481 wait=19
+fold=07 epoch=0112 val_acc=0.8734 val_ba=0.8713 cls=0.12587 align=0.54768 orth=0.00000 balance=0.00000
+fold=07 epoch=0125 current_val_acc=0.8608 wait=13
+fold=07 epoch=0150 current_val_acc=0.6709 wait=38
+fold=07 done epoch=112 ACC=0.8391 BA=0.8380 ASD-AUC=0.9181 runtime=14.4s
+fold=08 epoch=0001 val_acc=0.3671 val_ba=0.3710 cls=0.81418 align=0.52806 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0003 val_acc=0.4051 val_ba=0.4003 cls=0.76756 align=0.53421 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0004 val_acc=0.4304 val_ba=0.4225 cls=0.74957 align=0.53923 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0005 val_acc=0.4937 val_ba=0.4804 cls=0.75521 align=0.54502 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0006 val_acc=0.5316 val_ba=0.5161 cls=0.74021 align=0.55266 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0012 val_acc=0.5570 val_ba=0.5479 cls=0.69996 align=0.56836 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0025 current_val_acc=0.5316 wait=13
+fold=08 epoch=0030 val_acc=0.5696 val_ba=0.5405 cls=0.69067 align=0.55080 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0031 val_acc=0.6329 val_ba=0.6242 cls=0.68995 align=0.55179 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0036 val_acc=0.6456 val_ba=0.6216 cls=0.69057 align=0.55017 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0039 val_acc=0.6835 val_ba=0.6927 cls=0.68458 align=0.56351 orth=-0.00000 balance=-0.00000
+fold=08 epoch=0048 val_acc=0.7342 val_ba=0.7210 cls=0.63894 align=0.57095 orth=0.00000 balance=0.00000
+fold=08 epoch=0050 current_val_acc=0.6456 wait=2
+fold=08 epoch=0051 val_acc=0.7595 val_ba=0.7642 cls=0.61672 align=0.57064 orth=0.00000 balance=0.00000
+fold=08 epoch=0059 val_acc=0.7848 val_ba=0.7864 cls=0.49971 align=0.56900 orth=0.00000 balance=0.00000
+fold=08 epoch=0066 val_acc=0.7975 val_ba=0.8031 cls=0.47155 align=0.56046 orth=0.00000 balance=0.00000
+fold=08 epoch=0068 val_acc=0.8228 val_ba=0.8237 cls=0.39287 align=0.56217 orth=0.00000 balance=0.00000
+fold=08 epoch=0071 val_acc=0.8354 val_ba=0.8372 cls=0.35598 align=0.55375 orth=0.00000 balance=0.00000
+fold=08 epoch=0075 current_val_acc=0.6582 wait=4
+fold=08 epoch=0076 val_acc=0.8481 val_ba=0.8475 cls=0.34751 align=0.60024 orth=0.00000 balance=0.00000
+fold=08 epoch=0081 val_acc=0.8608 val_ba=0.8546 cls=0.31407 align=0.56187 orth=0.00000 balance=0.00000
+fold=08 epoch=0088 val_acc=0.8734 val_ba=0.8713 cls=0.34154 align=0.56383 orth=0.00000 balance=0.00000
+fold=08 epoch=0100 current_val_acc=0.8608 wait=12
+fold=08 epoch=0105 val_acc=0.8861 val_ba=0.8880 cls=0.24845 align=0.54047 orth=0.00000 balance=0.00000
+fold=08 epoch=0125 current_val_acc=0.4684 wait=20
+fold=08 epoch=0138 val_acc=0.8987 val_ba=0.8983 cls=0.43658 align=0.58688 orth=0.00000 balance=0.00000
+fold=08 epoch=0150 current_val_acc=0.8481 wait=12
+fold=08 epoch=0175 current_val_acc=0.8608 wait=37
+fold=08 done epoch=138 ACC=0.7701 BA=0.7686 ASD-AUC=0.8894 runtime=17.1s
+fold=09 epoch=0001 val_acc=0.5063 val_ba=0.4778 cls=1.42105 align=0.51400 orth=-0.00000 balance=-0.00000
+fold=09 epoch=0012 val_acc=0.5316 val_ba=0.5467 cls=0.70782 align=0.54927 orth=0.00000 balance=0.00000
+fold=09 epoch=0025 current_val_acc=0.5316 wait=13
+fold=09 epoch=0044 val_acc=0.6329 val_ba=0.6097 cls=0.68932 align=0.56390 orth=0.00000 balance=0.00000
+fold=09 epoch=0046 val_acc=0.7215 val_ba=0.7252 cls=0.67426 align=0.58843 orth=0.00000 balance=0.00000
+fold=09 epoch=0050 val_acc=0.7975 val_ba=0.7934 cls=0.65652 align=0.59444 orth=0.00000 balance=0.00000
+fold=09 epoch=0050 current_val_acc=0.7975 wait=0
+fold=09 epoch=0053 val_acc=0.8228 val_ba=0.8237 cls=0.64296 align=0.58402 orth=0.00000 balance=0.00000
+fold=09 epoch=0072 val_acc=0.8354 val_ba=0.8308 cls=0.41653 align=0.58986 orth=-0.00000 balance=-0.00000
+fold=09 epoch=0074 val_acc=0.8481 val_ba=0.8427 cls=0.40920 align=0.62503 orth=-0.00000 balance=-0.00000
+fold=09 epoch=0075 current_val_acc=0.8101 wait=1
+fold=09 epoch=0094 val_acc=0.8861 val_ba=0.8800 cls=0.28033 align=0.57537 orth=0.00000 balance=0.00000
+fold=09 epoch=0100 current_val_acc=0.8608 wait=6
+fold=09 epoch=0122 val_acc=0.8987 val_ba=0.9015 cls=0.18803 align=0.53437 orth=0.00000 balance=0.00000
+fold=09 epoch=0125 current_val_acc=0.8608 wait=3
+fold=09 epoch=0150 current_val_acc=0.5316 wait=28
+fold=09 done epoch=122 ACC=0.8621 BA=0.8649 ASD-AUC=0.8888 runtime=15.6s
+fold=10 epoch=0001 val_acc=0.4810 val_ba=0.4958 cls=0.84188 align=0.47806 orth=0.00000 balance=0.00000
+fold=10 epoch=0002 val_acc=0.4937 val_ba=0.5125 cls=0.80215 align=0.48417 orth=0.00000 balance=0.00000
+fold=10 epoch=0003 val_acc=0.5063 val_ba=0.5212 cls=0.75870 align=0.48790 orth=0.00000 balance=0.00000
+fold=10 epoch=0004 val_acc=0.5443 val_ba=0.5569 cls=0.72546 align=0.49271 orth=0.00000 balance=0.00000
+fold=10 epoch=0007 val_acc=0.5696 val_ba=0.5566 cls=0.69746 align=0.50862 orth=0.00000 balance=0.00000
+fold=10 epoch=0025 current_val_acc=0.4684 wait=18
+fold=10 epoch=0036 val_acc=0.5949 val_ba=0.6174 cls=0.66133 align=0.55751 orth=0.00000 balance=0.00000
+fold=10 epoch=0038 val_acc=0.6962 val_ba=0.6805 cls=0.67024 align=0.54686 orth=0.00000 balance=0.00000
+fold=10 epoch=0042 val_acc=0.7215 val_ba=0.7188 cls=0.62613 align=0.57121 orth=0.00000 balance=0.00000
+fold=10 epoch=0044 val_acc=0.7342 val_ba=0.7194 cls=0.59062 align=0.57273 orth=0.00000 balance=0.00000
+fold=10 epoch=0047 val_acc=0.7848 val_ba=0.7735 cls=0.59833 align=0.59058 orth=-0.00000 balance=-0.00000
+fold=10 epoch=0050 current_val_acc=0.6835 wait=3
+fold=10 epoch=0072 val_acc=0.8101 val_ba=0.8069 cls=0.40869 align=0.62402 orth=-0.00000 balance=-0.00000
+fold=10 epoch=0075 current_val_acc=0.6835 wait=3
+fold=10 epoch=0084 val_acc=0.8354 val_ba=0.8275 cls=0.32952 align=0.56706 orth=-0.00000 balance=-0.00000
+fold=10 epoch=0096 val_acc=0.8481 val_ba=0.8411 cls=0.19621 align=0.54492 orth=-0.00000 balance=-0.00000
+fold=10 epoch=0097 val_acc=0.8608 val_ba=0.8594 cls=0.25956 align=0.54917 orth=-0.00000 balance=-0.00000
+fold=10 epoch=0099 val_acc=0.8734 val_ba=0.8665 cls=0.17301 align=0.53820 orth=-0.00000 balance=-0.00000
+fold=10 epoch=0100 current_val_acc=0.8734 wait=1
+fold=10 epoch=0109 val_acc=0.8861 val_ba=0.8800 cls=0.23409 align=0.56499 orth=0.00000 balance=0.00000
+fold=10 epoch=0125 current_val_acc=0.8608 wait=16
+fold=10 epoch=0131 val_acc=0.8987 val_ba=0.8951 cls=0.09961 align=0.52180 orth=-0.00000 balance=-0.00000
+fold=10 epoch=0150 current_val_acc=0.5316 wait=19
+fold=10 epoch=0175 current_val_acc=0.7722 wait=44
+fold=10 done epoch=131 ACC=0.8506 BA=0.8487 ASD-AUC=0.8899 runtime=15.9s
+wrote 10 fold rows to /data/adodas/MMGL-main/experiment/experiment2_selective_alignment/results/raw/C2_global_hybrid_medium_seed1.folds.csv
+wrote 871 OOF rows to /data/adodas/MMGL-main/experiment/experiment2_selective_alignment/results/raw/C2_global_hybrid_medium_seed1.oof.csv
