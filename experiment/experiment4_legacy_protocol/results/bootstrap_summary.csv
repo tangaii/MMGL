@@ -1,0 +1,2 @@
+comparison,n_seeds,delta_BA_mean,delta_BA_sd,delta_probability_AUC_mean,delta_probability_AUC_sd,BA_positive_seed_wins,probability_AUC_positive_seed_wins
+L1_legacy_uniform_global_vs_L0_legacy_baseline,3,0.003377446925834008,0.007539372353817705,-0.00043477338762694845,0.008170919683923226,2,1
