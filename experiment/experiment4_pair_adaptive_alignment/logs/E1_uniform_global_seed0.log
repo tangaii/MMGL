@@ -1,0 +1,12 @@
+{"class_counts_internal": [403, 468], "config": "E1_uniform_global", "data_shape": [871, 320], "device": "cuda", "modal_dims": [48, 6, 10, 256], "modal_names": ["PHENO", "ANAT", "FUNC", "Correlation"], "seed": 0}
+fold=01 epoch=152 ACC=0.9091 BA=0.9102 ASD-AUC=0.9652 runtime=24.2s
+fold=02 epoch=126 ACC=0.8621 BA=0.8616 ASD-AUC=0.9316 runtime=15.6s
+fold=03 epoch=119 ACC=0.8621 BA=0.8616 ASD-AUC=0.9284 runtime=15.3s
+fold=04 epoch=133 ACC=0.9080 BA=0.9037 ASD-AUC=0.9638 runtime=16.5s
+fold=05 epoch=123 ACC=0.8851 BA=0.8769 ASD-AUC=0.9383 runtime=15.7s
+fold=06 epoch=130 ACC=0.9195 BA=0.9162 ASD-AUC=0.9473 runtime=16.1s
+fold=07 epoch=89 ACC=0.9080 BA=0.9112 ASD-AUC=0.9628 runtime=12.2s
+fold=08 epoch=114 ACC=0.9425 BA=0.9449 ASD-AUC=0.9926 runtime=14.2s
+fold=09 epoch=88 ACC=0.7011 BA=0.6918 ASD-AUC=0.6899 runtime=13.0s
+fold=10 epoch=108 ACC=0.7126 BA=0.7080 ASD-AUC=0.7319 runtime=14.5s
+wrote fold_rows=10 oof_rows=871
